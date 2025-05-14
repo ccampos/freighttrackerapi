@@ -1,0 +1,52 @@
+# Ignore Gradle files
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+.gradle-cache/
+*.iml
+.gradle/caches/
+.gradle/gradle.properties
+.gradle/gradle-wrapper.jar
+
+# Ignore IntelliJ files (if using IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Java build files
+*.class
+*.log
+*.war
+*.ear
+*.jar
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore H2 database files (if any)
+*.h2.db
+*.mv.db
+
+# Ignore environment and configuration files
+.env
+application.yml
+application-*.yml
+application.properties
+application-*.properties
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE files
+.vscode/
+*.code-workspace
